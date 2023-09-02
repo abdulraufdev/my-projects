@@ -6,6 +6,7 @@ let proj1 = document.getElementById("project--1");
 
 let proj6 = document.getElementById("project--6");
 let proj7 = document.getElementById("project--7");
+let proj8 = document.getElementById("project--8");
 
 proj1.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/melodica_thumb.png)');
 proj2.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/thumbnail.png)');
@@ -14,3 +15,4 @@ proj4.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledi
 proj5.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/thumb_penpot.png)');
 proj6.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/framer_thumb.png)');
 proj7.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/thumb.png)');
+proj8.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/supercook_thumb.png)');
