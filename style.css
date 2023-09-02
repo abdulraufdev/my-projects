@@ -30,12 +30,25 @@ html.second{
   --white-08: #121212;
   --black-08: rgba(0, 0 , 0 , 0.2);
 }
+
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(145, 145, 145);
+  width: 8px;
+
+}
 * {
   margin: 0;
   padding: 0;
 }
-body {
-  overflow-x: hidden;
+body{
+  font-family: var(--primary-font);
 }
 a {
   text-decoration: none;
@@ -46,9 +59,10 @@ strong{
 }
 hr {
   border: 0.8px solid #999 ;
+  opacity: 0.7;
   width: 100vw;
-  position: relative;
-  right: 6rem;
+  position: absolute;
+  right: 0;
 }
 header {
   color: var(--black);
