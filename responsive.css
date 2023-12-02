@@ -1,10 +1,9 @@
 @media screen and (width <= 1024px) {
-    .project-sec{
-        flex-direction: column-reverse;
-        row-gap: 2rem;
-    }
     .proj-img{
         height: auto;
+    }
+    .proj-h1{
+        font-size: calc(42px + 2vw);
     }
 }
 
@@ -12,37 +11,72 @@
     .faded-p{
         width: auto;
     }
-    .container{
+    .proj-wrapper,.title-bar, .contact-sec{
         padding: 2rem;
     }
-    .project-sec{
-        padding: 2rem;
-        margin: 0 -2rem;
+    .connect-container{
+        padding: 0 2rem;
+    }
+    .contact-sec{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 3rem;
+    }
+    .contact-head{
+        width: 100%;
+    }
+    .contact-sec .cta{
+        width: 100%;
+        justify-content: center;
     }
 }
 
 @media screen and (width <= 720px) {
-    header a, header span{
-        display: none;
+    .proj-h1{
+        font-size: 7.4vw;
+    }
+    .title-bar span a, .title-bar > div{
+        display: none !important;
+    }
+    .title-bar{
+        justify-content: stretch;
+    }
+    .contact-head p{
+        margin-top: 1.5rem;
     }
 }
 
 @media screen and (width <= 530px) {
     .proj-h2{
-        font-size: 32px;
+        font-size: 20px;
     }
     .proj-h1{
-        font-size: 48px;
-        margin-top: 2rem;
+        font-size: 28px;
+    }
+    .projcontainer{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .contact-head strong{
+        font-size: 2rem;
     }
 }
 @media screen and (width <= 430px) {
-    .container{
+    .proj-wrapper, .title-bar, .contact-sec{
         padding: 1.2rem;
-        padding-top: 2rem;
     }
-    .project-sec {
-        padding: 1.2rem;
-        margin: 0 -1.2rem;
+    .title-bar{
+        padding: 2rem 1.2rem ;
+    }
+    .connect-container{
+        padding: 0rem 1.2rem;
+    }
+    .connect-wrapper{
+        flex-direction: column-reverse;
+        padding: 1rem 0;
+    }
+    .connect-icons{
+        justify-content: center;
     }
 }
