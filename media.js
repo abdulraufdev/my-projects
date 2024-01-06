@@ -15,4 +15,4 @@ proj4.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledi
 proj5.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/penpot_thumb.png)');
 proj6.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/framer_thumb.png)');
 proj7.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/andr15_thumb.png)');
-proj8.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/supercook_thumb.png)');
+proj8.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/supercook_thumb.png)');
