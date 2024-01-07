@@ -9,7 +9,7 @@ let proj7 = document.getElementById("project--7");
 let proj8 = document.getElementById("project--8");
 let proj9 = document.getElementById("project--9");
 
-proj1.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/melodica_thumb?up.png)');
+proj1.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/melodica_thumb.png)');
 proj2.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/thumbnail.png)');
 proj3.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/pfolioMe/adesar_thumb.png?updatedAt=1704600342033)');
 proj4.style.setProperty('background-image', 'url(https://ik.imagekit.io/abduledits5/am_1.png)');
