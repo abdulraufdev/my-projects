@@ -18,8 +18,8 @@ html {
   --primary-gradient: linear-gradient(60deg, #302DCB, #651CE3 );
   transition: all 0.5s ease;
   scroll-behavior: smooth;
-  --letter-spacing: -0.025em;
-  letter-spacing: -0.025em;
+  --letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
 }
 html.second{
   --white: #050505;
@@ -54,7 +54,7 @@ body{
   font-family: var(--primary-font);
 }
 a {
-  display: flex;
+  /* display: flex; */
   text-decoration: none;
   color: inherit;
 }
@@ -102,9 +102,15 @@ img{
   color: var(--black);
 }
 .cta:disabled{
+  color: initial;
+  background-color: initial;
   opacity: 0.4;
   cursor: default;
   
+}
+.cta:disabled:hover{
+  color: initial;
+  background-color: initial;
 }
 .contact-cta{
   padding: 24px 32px;
@@ -129,11 +135,11 @@ img{
 }
 .faded-p{
   color: var(--black);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 180%;
-  width: 60%;
+  letter-spacing: -0.01rem;
   font-family: var(--primary-font);
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .proj-wrapper{
@@ -151,7 +157,7 @@ img{
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .proj-h1{
@@ -170,11 +176,9 @@ img{
 }
 .projcontainer .faded-p{
   margin-bottom: auto;
-  width: 300px;
 }
 .projcontainer{
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
