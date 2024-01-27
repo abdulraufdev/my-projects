@@ -18,8 +18,8 @@ html {
   --primary-gradient: linear-gradient(60deg, #302DCB, #651CE3 );
   transition: all 0.5s ease;
   scroll-behavior: smooth;
-  --letter-spacing: -0.015em;
-  letter-spacing: -0.015em;
+  --letter-spacing: -0.025em;
+  letter-spacing: -0.025em;
 }
 html.second{
   --white: #050505;
@@ -82,6 +82,9 @@ img{
 }
 .title-bar span a:hover{
   color: var(--blue);
+}
+.title-bar > a{
+  width: 20ch;
 }
 .cta {
   cursor: pointer;
@@ -164,11 +167,10 @@ img{
   color: var(--black);
   font-size: calc(84px + 2vw);
   font-weight: 800;
-  line-height: 100% ;
+  margin-bottom: 1rem;
   letter-spacing: var(--letter-spacing);
-  text-transform: uppercase;
   user-select: none;
-  position: relative;
+  text-transform: uppercase;
 }
 .proj-h2{
   letter-spacing: var(--letter-spacing);
