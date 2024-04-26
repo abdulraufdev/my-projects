@@ -1,9 +1,40 @@
+@media screen and (width < 1260px) {
+    .section, .proj-wrapper, .contact-sec, .title-bar{
+        padding: 2rem 4rem ;
+    }
+    .connect-container{
+        padding: 0rem 4rem;
+    }
+    .projcontainer{
+        height: 700px;
+        width: auto;
+        justify-content: flex-start;
+    }
+    .proj-img{
+        top: auto;
+        bottom: 10%;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
 @media screen and (width <= 1024px) {
     .proj-img{
         height: auto;
     }
     .proj-h1{
         font-size: calc(42px + 2vw);
+    }
+    .title-bar > span{
+        display: none !important;
+    }
+    .title-bar{
+        justify-content: stretch;
+    }
+    .title-bar > a{
+        width: auto;
     }
 }
 
@@ -29,26 +60,49 @@
         width: 100%;
         justify-content: center;
     }
+    .proj-img{
+        height: 250px;
+    }
+    .projcontainer{
+        height: 500px;
+        padding: 28px;
+    }
+
 }
 
 @media screen and (width <= 720px) {
-    .title-bar span a, .title-bar > div{
-        display: none !important;
-    }
-    .title-bar{
-        justify-content: stretch;
-    }
     .contact-head p{
         margin-top: 1.5rem;
+    }
+    .project-sec{
+        border-radius: 12px;
+        margin-bottom: 3rem;
     }
 }
 
 @media screen and (width <= 530px) {
     .proj-h2{
-        font-size: 20px;
+        font-size: 24px;
+    }
+    .tag{
+        font-size: 12px;
+    }
+    .tags{
+        flex-wrap: wrap;
+    }
+    .proj-img{
+        height: 160px;
+        bottom: 5%;
+    }
+    .projcontainer{
+        height: 400px;
+        gap: 1rem;
     }
     .proj-h1{
         font-size: 28px;
+    }
+    .faded-p{
+        font-size: 16px;
     }
     .projcontainer{
         flex-direction: column;
@@ -60,15 +114,7 @@
     }
 }
 @media screen and (width <= 430px) {
-    .proj-wrapper, .title-bar, .contact-sec{
-        padding: 1.2rem;
-    }
-    .title-bar{
-        padding: 2rem 1.2rem ;
-    }
-    .connect-container{
-        padding: 0rem 1.2rem;
-    }
+    
     .connect-wrapper{
         flex-direction: column-reverse;
         padding: 1rem 0;

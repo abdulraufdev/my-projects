@@ -58,3 +58,19 @@ themeCta.addEventListener("click", e => {
   
   menuInactive();
   
+  window.addEventListener('scroll' , revealProjects);
+
+var projects = document.querySelectorAll('.project-sec');
+
+function revealProjects() {
+  
+  for (var i = 1; i < projects.length; i++){
+    var windowHeight = window.innerHeight;
+    var revealTop = projects[i].getBoundingClientRect().top;
+    var revealPoint = 100; 
+
+    if(revealTop < windowHeight - revealPoint){
+        projects[i].classList.add('reveal');
+      }
+    }
+}
