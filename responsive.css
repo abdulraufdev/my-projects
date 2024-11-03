@@ -33,8 +33,10 @@
     .title-bar{
         justify-content: stretch;
     }
-    .title-bar > a{
-        width: auto;
+    .title-bar {
+        strong{
+            width: auto;
+        }
     }
 }
 

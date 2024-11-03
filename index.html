@@ -6,8 +6,9 @@
     <title>My Projects</title>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="icon" type="image/favicon" href="https://ik.imagekit.io/abduledits5/myavi.jpeg">
+    <link rel="stylesheet" href="https://abdulraufedits.github.io/style.css">
+    <link rel="stylesheet" href="https://abdulraufedits.github.io/menu.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
     <div class="nav-wrapper">
         <div class="nav-content">
             <ul class="nav__list">
-                <li class="nav__list-item"><a style="transition-delay: 0.6s;" href="#proj--sec">My Work</a></li>
+                <li class="nav__list-item"><a style="transition-delay: 0.6s;" href="#">My Work</a></li>
                 <li class="nav__list-item"><a style="transition-delay: 0.7s;" href="/about">About</a></li>
                 <li class="nav__list-item"><a style="transition-delay: 0.8s;" href="#contact--sec">Contact Me</a></li>
                 <li class="nav__list-item"><a class="resume-cta" style="transition-delay: 0.9s;" target="_blank" href="https://drive.google.com/file/d/1P8opQQe7mnQuVHNhbmL6Peb-rqwR2n_s/view?usp=sharing">Resume<svg class="menu-resume-svg" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,17 +35,33 @@
         <a href="/"><strong>Abdul Rauf</strong></a>
         <span style="display: flex; gap: 2rem;">
             <a href="/about">About</a>
-            <a href="/my-projects">My Work</a>
+            <a href="/my-projects" style="color: var(--blue)">My Work</a>
             <a href="#contact--sec">Contact</a>
-            <a href="https://drive.google.com/file/d/1-Fy5xB9dxoB59Ywi9nNgrU5azkkjdnRm/view" target="_blank" class="resume-cta">Resume <i style="position: relative; bottom: -2px;" class="ph-bold ph-arrow-up-right"></i></a>
+            <a target="_blank" href="https://drive.google.com/file/d/1-Fy5xB9dxoB59Ywi9nNgrU5azkkjdnRm/view" class="resume-cta">Resume <i class="ph-bold ph-arrow-up-right"></i></a>
         </span>
         <div class="theme-cta"></div>
     </header>
     <main class="section proj-wrapper">
         <div id="proj--sec">
-            <h1 class="proj-h1 text_anim">My Work</h1>
-            <p class="faded-p text_anim">Have a look at some of the projects I've worked on.</p>
+            <h1 class="proj-h1 ">My Work</h1>
+            <p class="faded-p ">Have a look at some of the projects I've worked on.</p>
         </div>
+        <a href="https://www.behance.net/gallery/209404419/Finnote-UX-Case-Study-Personal-Expense-tracker" target="_blank">
+            <section class="project-sec project-sec-10 reveal" style="animation-delay: 0.6s;">
+            <div class="proj-img" id="project--10"></div>
+            <div class="projcontainer">
+              <div>
+                    <div class="tags">
+                        <label class="tag">Case Study</label>
+                        <label class="tag">App Design</label>
+                        <label class="tag">App Development</label>
+                    </div>
+                    <h2 class="proj-h2">FinNote</h2>
+                </div>
+                <p class="faded-p">FinNote is a simple yet powerful expenses and budget tracking app to streamline the process of finance tracking, especially for home.</p>
+            </div>
+        </section>
+        </a>
         <a href="https://abdulraufedits.github.io/ascendlms" target="_blank">
             <section class="project-sec project-sec-10 reveal" style="animation-delay: 0.6s;">
             <div class="proj-img" id="project--10"></div>
@@ -234,11 +251,5 @@
     </footer>
     <script src="script.js"></script>
     <script src="media.js"></script>
-    <script src="https://unpkg.com/split-type"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
-        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-    <script src="anim.js"></script>
 </body>
 </html>
