@@ -73,9 +73,7 @@
 }
 
 @media screen and (width <= 720px) {
-    .contact-head p{
-        margin-top: 1.5rem;
-    }
+
     .project-sec{
         border-radius: 12px;
         margin-bottom: 3rem;
@@ -113,15 +111,5 @@
     }
     .contact-head strong{
         font-size: 2rem;
-    }
-}
-@media screen and (width <= 430px) {
-    
-    .connect-wrapper{
-        flex-direction: column-reverse;
-        padding: 1rem 0;
-    }
-    .connect-icons{
-        justify-content: center;
     }
 }
