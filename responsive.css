@@ -5,25 +5,10 @@
     .connect-container{
         padding: 0rem 4rem;
     }
-    .projcontainer{
-        height: 700px;
-        width: auto;
-        justify-content: flex-start;
-    }
-    .proj-img{
-        top: auto;
-        bottom: 10%;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
-    }
 }
 
 @media screen and (width <= 1024px) {
-    .proj-img{
-        height: auto;
-    }
+
     .proj-h1{
         font-size: calc(42px + 2vw);
     }
@@ -62,52 +47,28 @@
         width: 100%;
         justify-content: center;
     }
-    .proj-img{
-        height: 250px;
-    }
-    .projcontainer{
-        height: 500px;
-        padding: 28px;
-    }
-
-}
-
-@media screen and (width <= 720px) {
-
-    .project-sec{
-        border-radius: 12px;
-        margin-bottom: 3rem;
-    }
-}
-
-@media screen and (width <= 530px) {
-    .proj-h2{
-        font-size: 24px;
-    }
     .tag{
         font-size: 12px;
     }
     .tags{
         flex-wrap: wrap;
     }
-    .proj-img{
-        height: 160px;
-        bottom: 5%;
+
+}
+
+@media screen and (width <= 720px) {
+    .project-sec{
+        grid-template-columns: 1fr;
     }
-    .projcontainer{
-        height: 400px;
-        gap: 1rem;
-    }
+}
+
+@media screen and (width <= 530px) {
+    
     .proj-h1{
         font-size: 28px;
     }
     .faded-p{
         font-size: 16px;
-    }
-    .projcontainer{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
     }
     .contact-head strong{
         font-size: 2rem;
