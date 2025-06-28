@@ -1,14 +1,6 @@
-.proj-h1{
-  color: var(--black);
-  font-size: calc(56px + 2vw);
-  font-weight: 700;
-  line-height: 110%;
-  letter-spacing: var(--letter-spacing);
-  user-select: none;
-  position: relative;
-}
-
 #proj--sec{
+  display: flex;
   flex-direction: column;
-  align-items: flex-start !important;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }

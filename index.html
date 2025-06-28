@@ -7,157 +7,123 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="icon" type="image/favicon" href="https://ik.imagekit.io/abduledits5/myavi.jpeg">
     <link rel="stylesheet" href="https://abdulraufdev.github.io/style.css">
-    <link rel="stylesheet" href="https://abdulraufdev.github.io/menu.css">
+    <link rel="stylesheet" href="https://abdulraufdev.github.io/responsive.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <div class="menu-wrapper">
-        <div class="menu-icon">
-            <span class="menu-icon__line menu-icon__line-up"></span>
-            <span class="menu-icon__line menu-icon__line-down"></span>
-        </div>
-
-    </div>
-    <div class="nav-wrapper">
-        <div class="nav-content">
-            <ul class="nav__list">
-                <li class="nav__list-item"><a style="transition-delay: 0.6s;" href="#">My Work</a></li>
-                <li class="nav__list-item"><a style="transition-delay: 0.7s;" href="/about">About</a></li>
-                <li class="nav__list-item"><a style="transition-delay: 0.8s;" href="#contact--sec">Contact Me</a></li>
-                <li class="nav__list-item"><a class="resume-cta" style="transition-delay: 0.9s;" target="_blank" href="https://drive.google.com/file/d/1S6Yf2S21PcCrBYkouA_IK4tF7YSVbw3I/view?usp=sharing">Resume<svg class="menu-resume-svg" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.60854 8.18416L10.1176 3.6023L1.43727 10.5466L0.562693 9.45338L9.24306 2.50909L4.66121 1.99999L4.81581 0.608555L11.0773 1.28L11.77 1.36719L11.6957 2.07729L11 8.33876L9.60854 8.18416Z" fill="currentColor"></path>
-                        </svg></a></li>
-            </ul>
-        </div>
-    </div>
-    <header class="title-bar">
-        <a href="/"><strong>Abdul Rauf</strong></a>
-        <span style="display: flex; gap: 2rem;">
-            <a href="/about">About</a>
-            <a href="/my-projects" style="color: var(--blue)">My Work</a>
-            <a href="#contact--sec">Contact</a>
-            <a target="_blank" href="https://drive.google.com/file/d/1S6Yf2S21PcCrBYkouA_IK4tF7YSVbw3I/view" class="resume-cta">Resume <i class="ph-bold ph-arrow-up-right"></i></a>
-        </span>
-        <div class="theme-cta"></div>
-    </header>
-    <main class="section proj-wrapper">
-        <div id="proj--sec">
-            <h1 class="proj-h1 ">My Work</h1>
-            <p class="faded-p ">Have a look at some of the projects I've worked on.</p>
-        </div>
-        <div class="project-sec">
-            <section class=" projcontainer project-sec-12" >
-                <h2 class="proj-h2">InvoSync</h2>
-                <div>
-                    <p class="faded-p">B2B Catalogue management system.&nbsp;<b>Currently under development.</b></p>
-                    <div class="tags">
-                        <label class="tag">React.js</label>
-                        <label class="tag">Express.js</label>
-                        <label class="tag">Node.js</label>
-                        <label class="tag">SQL Server</label>
-                    </div>
-                </div>
-                <a href="" target="_blank" class="proj-cta disabled"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-        </section>
-            <section class=" projcontainer project-sec-11" >
-                <h2 class="proj-h2">FinNote</h2>
-                <div>
-                    <p class="faded-p">Expenses and budget tracking app.&nbsp;<b>Currently under development.</b></p>
-                    <div class="tags">
-                        <label class="tag">React Native</label>
-                        <label class="tag">Expo</label>
-                        <label class="tag">Typescript</label>
-                        <label class="tag">SQLite</label>
-                    </div>
-                </div>
-                <a href="" target="_blank" class="proj-cta disabled"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-        </section>
-            <section class=" projcontainer project-sec-10" >
-                <h2 class="proj-h2">Ascend LMS</h2>
-                <div>
-                    <p class="faded-p">Online learning management system based on SPA.</p>
-                    <div class="tags">
-                        <label class="tag">JavaScript</label>
-                        <label class="tag">Vue.js</label>
-                        <label class="tag">Pinia</label>
-                        <label class="tag">JSON Server</label>
-                    </div>
-                </div>
-                <a href="https://github.com/abdulraufdev/ascendlms" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-            </section>
-            <section class=" projcontainer project-sec-9" >
-                <h2 class="proj-h2">Math Trove</h2>
-                <div>
-                  <p class="faded-p">A huge math library which contains from basic to advanced mathematical formulas.</p>
-                    <div class="tags">
-                        <label class="tag">JavaScript</label>
-                        <label class="tag">React.js</label>
-                    </div>
-                </div>
-                <a href="https://github.com/mathtrove/mathtrove.github.io" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-        </section>
-            <section class=" projcontainer project-sec-9" >
+    <span class="tab-bar">
+        <a href="/" >Home</a>
+        <a href="/about">About</a>
+        <a href="/my-projects" style="background-color: var(--white-07);">Projects</a>
+        <a href="/contact.html">Contact</a>
+    </span>
+    <div class="container">
+        <!-- project sec -->
+        <main class=" proj-wrapper">
+            <div id="proj--sec">
+                <h1 class="name">My Work</h1>
+                <p>Have a look at some of the projects I've worked on.</p>
+                <!-- <a href="/my-projects" class="proj-redirect"><span>see all</span></a> -->
+            </div>
+            <div class="project-sec">
+                <section class=" projcontainer project-sec-12">
+                    <h2 class="proj-h2">InvoSync</h2>
+                    <p class="faded-p">A B2B Catalogue management system built using <span
+                            class="highlight">React.js</span>,
+                        <span class="highlight">Express.js</span>, <span class="highlight">Node.js</span> and <span
+                            class="highlight">SQL Server</span>.&nbsp;<b>Currently under development.</b>
+                    </p>
+                    <a href="" target="_blank" class="proj-cta disabled">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </section>
+                <section class=" projcontainer project-sec-11">
+                    <h2 class="proj-h2">FinNote</h2>
+                    <p class="faded-p">Expenses and budget tracking app built using <span class="highlight">React
+                            Naive</span>,
+                        <span class="highlight">Expo</span>, <span class="highlight">Typescript</span> and <span
+                            class="highlight">SQLite</span>.
+                    </p>
+                    <a href="" target="_blank" class="proj-cta disabled">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </section>
+                <section class=" projcontainer project-sec-10">
+                    <h2 class="proj-h2">Ascend LMS</h2>
+                    <p class="faded-p">Online learning management system built using <span
+                            class="highlight">Vue.js</span>,
+                        <span class="highlight">Pinia</span> and <span class="highlight">REST API</span>.
+                    </p>
+                    <a href="https://github.com/abdulraufdev/ascendlms" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </section>
+                <section class=" projcontainer project-sec-9">
+                    <h2 class="proj-h2">Math Trove</h2>
+                    <p class="faded-p">A huge math library which contains from basic to advanced mathematical
+                        formulas. Built using <span class="highlight">React.js</span></p>
+                    <a href="https://github.com/mathtrove/mathtrove.github.io" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub</a>
+                </section>
+                <section class=" projcontainer project-sec-9" >
                 <h2 class="proj-h2">Shortest Route Finder</h2>
-                <div>
-                  <p class="faded-p">Feature rich google maps clone (CLI based).</p>
-                    <div class="tags">
-                        <label class="tag">C++</label>
-                        <label class="tag">Graphs</label>
-                        <label class="tag">Data Structures</label>
-                    </div>
-                </div>
-                <a href="https://github.com/abdulraufdev/shortest-route-finder" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
+                  <p class="faded-p">Feature rich google maps clone (CLI based). 
+                    Built using <span class="highlight">C++</span>,
+                <span class="highlight">Graphs</span> and
+             <span class="highlight">Data Structures</span></p>
+                <a href="https://github.com/abdulraufdev/shortest-route-finder" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub</a>
         </section>
         </section>
             <section class=" projcontainer project-sec-9" >
                 <h2 class="proj-h2">Wages Management System</h2>
-                <div>
-                  <p class="faded-p">Desktop app for managing wages all over the organization.</p>
-                    <div class="tags">
-                        <label class="tag">Java</label>
-                        <label class="tag">Swing UI</label>
-                    </div>
-                </div>
-                <a href="https://github.com/abdulraufdev/wages-management-system" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
+                  <p class="faded-p">Desktop app for managing wages all over the organization. 
+                    Built using <span class="highlight">Java</span>,
+                 and <span class="highlight">Swing UI</span></p>
+                <a href="https://github.com/abdulraufdev/wages-management-system" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub</a>
         </section>
         
-    </div>
-      
-        
-    </main>
-    <!-- contact cta -->
-    <div class="contact-sec" id="contact--sec">
-        <div class="contact-head">
-            <strong>Contact me</strong>
-        </div>
-        <div style="display:flex; flex-direction: column; gap: 24px;">
-            <div>
-                <p class="faded-p"><i class="ph ph-envelope-simple"></i>Email</p>
-                <a href="mailto:abdulrauf.design@outlook.com" class="contact-link">abdulrauf.design@outlook.com</a>
             </div>
-            <div>
-                <p class="faded-p"><i class="ph ph-phone"></i>Phone</p>
-                <a href="" class="contact-link">+92 328 2249014</a>
-            </div>
-            <button class="connect-cta">
-                <strong class="connect-txt">Lorem ipsum dolor</strong>
-                <div class="connect-icons">
-                    <a id="twitter" class="connect-icon" href="https://www.twitter.com/abdulraufdesign"
-                        target="_blank"><i class="ph-bold ph-x-logo"></i>
-                    </a>
-                    <a id="linkedin" class="connect-icon" href="https://www.linkedin.com/in/abdulraufdesign"
-                        target="_blank"><i class="ph-fill ph-linkedin-logo"></i>
-                    </a>
-                    <a id="github" class="connect-icon" href="https://github.com/abdulraufdev" target="_blank"><i class="ph-fill ph-github-logo"></i>
-                    </a>
-                </div>
-            </button>
-        </div>
+
+        </main>
     </div>
-    <footer class="connect-container">
-        <div class="txt-blck" style="color: #666666;">© Abdul Rauf. All Rights Reserved.</div>
-    </footer>
-    <script src="script.js"></script>
+    <script src="https://abdulraufdev.github.io/script.js"></script>
 </body>
 </html>
